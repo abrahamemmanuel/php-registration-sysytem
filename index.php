@@ -13,7 +13,19 @@
 </head>
 
 <body>
-
+  <div class="container" style="margin-top: 100px;">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-md-offset-3" align="center">
+        <form action="index.php" method="post">
+          <input class="form-control" type="text" name="name" placeholder="Name....."><br>
+          <input class="form-control" type="email" name="email" placeholder="Email....."><br>
+          <input class="form-control" type="password" name="password" placeholder="Password....."><br>
+          <input class="form-control" type="password" name="cPassword" placeholder="Confirm Password....."><br>
+          <input class="btn btn-primary" type="submit" name="submit" value="register">
+        </form>
+      </div>
+    </div>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
